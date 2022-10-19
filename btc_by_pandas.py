@@ -168,3 +168,4 @@ for addr_idx in BTC_addr_list.index:
 #print(df_aggregate_excel)
 #Добавление в агрегатный(индексный) файл Excel
 df_aggregate_excel.to_excel('./index.xlsx', index=False)
+
